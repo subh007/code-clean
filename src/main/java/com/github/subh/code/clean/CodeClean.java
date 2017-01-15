@@ -20,8 +20,8 @@ import org.sonatype.inject.Parameters;
 public class CodeClean extends AbstractMojo
 {
 
-	// to invoke this parameter
-	// mvn com.github.subh:code-clean:0.0.1-SNAPSHOT:code-clean -DcleanDebug=true -X
+    // to invoke this parameter
+    // mvn com.github.subh:code-clean:0.0.1-SNAPSHOT:code-clean -DcleanDebug=true -X
     @Parameter(property="cleanDebug")
     private boolean cleanDebug;
 
